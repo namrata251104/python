@@ -1,3 +1,4 @@
-letter = "Dear Namrata,\n\tThis python course is nice.\nThanks!"
+a = (7, 0,8,0,0,9)
 
-print(letter)
+n = a.count(0)
+print(n)

@@ -1,4 +1,3 @@
-name = "Namrata is a good  girl and  "
+l = [3, 3, 5, 1]
 
-print(name.replace("  "," "))
-print(name)
+print(sum(l))

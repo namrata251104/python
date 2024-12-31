@@ -1,3 +1,3 @@
-name = "Narata is a good  girl and  "
+a = (34,"Namrata")
 
-print(name.find("  "))
+a[2] = "Chaurasiya"
