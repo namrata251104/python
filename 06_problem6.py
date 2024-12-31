@@ -1,3 +1,20 @@
-a = int(input("Enter your number:"))
+d = {}
 
-print("The square of the number is", a*2)
+name = input("Enter friends name :")
+lang = input("enter language name :")
+
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input("enter language name :")
+
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input("enter language name :")
+
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input("enter language name :")
+
+d.update({name: lang})
+
+print(d)

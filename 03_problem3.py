@@ -1,3 +1,5 @@
-a = (34,"Namrata")
+s = set ()
+s.add(18)
+s.add("18")
 
-a[2] = "Chaurasiya"
+print(s)
