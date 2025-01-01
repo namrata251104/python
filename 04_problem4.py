@@ -1,7 +1,7 @@
-username = input("Enter username:")
-
-if(len(username)<10):
-    print("Your username contain less than 10 characters")
-
-else:
-    print("Your username contains more than or equal to 10 character ")
+n = int(input("Enter a number:"))
+for i in range(2,n):
+    if (n%i) == 0:
+        print("Number is not prime")
+        break
+    else:
+        print("Number is prime")

@@ -1,12 +1,8 @@
-p1 = "make a lotof money"
-p2 = "buy now"
-p3 = "subscribe this"
-p4 = "click this"
+n = int(input("Enter a number:"))
 
-message = input("Enter your comment:")
+i = 1
 
-if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
-    print("This message is a spam")
 
-else:
-    print("This comment is not a spam")
+while(i<11):
+     print(f"{n} X {i} = {n * i}")
+     i += 1

@@ -1,6 +1,5 @@
-post = input("Enter the post:")
-
-if("Namrata".lower() in post.lower()):
-    print("This post is talking about Namrata")
-else:
-    print("This post is not talking about Namrata")
+n = int(input("Enter the number:"))
+for i in range(1, n+1):
+    print(" "* (n-1),end= "")
+    print("*"* (2*i-1),end ="")
+    print("")

@@ -1,9 +1,9 @@
-l = ["Namrata", "Ann","Amrutha", "Frank"]
+n = int(input("Enter the number: "))
+i = 0
+sum = 0
 
-name = input("Enter your name:")
+while(i<n):
+    sum += i
+    i+=1
 
-if(name in l):
-    print("Your name is there in the list")
-
-else:
-    print("Your name is not there in the list")
+    print(sum)

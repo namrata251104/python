@@ -1,16 +1,7 @@
-marks = int(input("Enter your marks"))
+1  #5! = 1X2X3X4X5
 
-if(marks<=100 and marks>=90):
-    grade = "Ex"
-elif(marks<90 and marks>=80):
-    grade = "A"
-elif(marks<80 and marks>=70):
-    grade = "B"
-elif(marks<70 and marks>=60):
-    grade = "C"
-elif(marks<60 and marks>=50):
-    grade = "B"
-elif(marks<50):
-    grade = "F"
-
-    print("Your grade is :", grade)
+n = int(input("Enter the number:"))
+product = 1
+for i in range (1, n+1):
+    product = product * i
+    print(f"The factorial of {n} is {product}")
