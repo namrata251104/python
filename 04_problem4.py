@@ -1,6 +1,7 @@
-s = set()
-s.add(20)
-s.add(20.0)
-s.add('20')
+username = input("Enter username:")
 
-print(s)
+if(len(username)<10):
+    print("Your username contain less than 10 characters")
+
+else:
+    print("Your username contains more than or equal to 10 character ")
