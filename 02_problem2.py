@@ -1,5 +1,5 @@
-l = ["Harry","Soham","Rohan","Sachin"]
+def f_to_c(f):
+    return 5*(f-32)/9
 
-for name in l:
-    if(name.startswith("S")):
-        print(f"Hello {name}")
+f = int(input("Enter tempeture in f: "))
+print(f"{f_to_c(f)} Degree C")

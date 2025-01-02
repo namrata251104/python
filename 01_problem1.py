@@ -1,4 +1,14 @@
-n = int(input("Enter a number:"))
+def greatest(a, b, c):
+    if(a>b and b>c):
+        return a
+    elif(b>a and b>c):
+        return b
+    elif(c>b and c>a):
+        return c
+    a = 1
+    b = 23
+    c = 3
 
-for i in range (1,11):
-    print(f"{n} X {i} = {n * i}")
+    print(greatest (a,b,c))
+
+    

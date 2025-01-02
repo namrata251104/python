@@ -1,9 +1,7 @@
-n = int(input("Enter the number: "))
-i = 0
-sum = 0
+def pattern(n):
+    if(n==0):
+        return
+    print("*"* n)
+    pattern(n-1)
 
-while(i<n):
-    sum += i
-    i+=1
-
-    print(sum)
+    pattern(5)
