@@ -1,6 +1,7 @@
-def inch_to_cm(inch):
-    return inch * 2,54
+with open("log.txt") as f:
+    content = f.read()
 
-n = int(input("Enter value in inches :"))
-
-print(f"The corressponding value in cms is{inch_to_cm(n)}")
+if("python" in content ):
+    print("Yes python is present")
+else:
+    print("No python is not present")

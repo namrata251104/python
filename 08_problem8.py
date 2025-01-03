@@ -1,5 +1,7 @@
-def multiply(n):
-    for i in range(1, n+1):
-        print(f"{n} X {i} = {n*i}")
+with open("this.txt") as f:
+    content = f.read()
 
-        multiply(5)
+    with open("this_copy.txt","w") as f:
+     f.write(content)
+ 
+  

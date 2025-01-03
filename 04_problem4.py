@@ -1,13 +1,9 @@
-'''
-sum(n) = 1+2+3+4...n
-sum(1) = 1
-sum(2) = 1+2
-sum(3) = 1+2+3
-'''
+word = "Donkey"
 
-def sum(n):
-    if(n == 1):
-        return 1
-    return sum(n-1) + n
+with open("file.txt" ,"r")as f:
+    content = f.read()
 
-print(sum(4))
+    contentNew = content.replace(word,"######")
+
+    with open("file.txt","w") as f:
+              f.write(contentNew)
